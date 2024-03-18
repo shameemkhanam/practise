@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+    /* always, because the size of the box will remain same */
+}
+.main_container {
+  margin: 0px 30px;
+}
+.text {
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px red;
+  transition: transform 2s;
+}
+.text:hover{
+    transform: rotate(360deg);
+}
+.para {
+  column-count: 3;
+  column-gap: 50px;
+  column-rule: dashed;
+  column-rule-color: blue;
+  text-align: justify;
+  padding: 20px;
+  box-shadow: 2px 2px 5px red;
+}
+.imgBg {
+  /* width: 1300px; */
+  height: 200px;
+    padding: 20px;
+  background-image: url("farru.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.resize_text{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+    text-align: justify;
+    /* resize: horizontal; */
+    /* resize: vertical; */
+    resize: both;
+    /* resize: none; */
+    overflow: auto;
+}
+.transform_box{
+    width: 500px;
+    height: 150px;
+    border: 2px solid purple;
+    margin-top: 20px;
+    /* padding: 20px; */
+    background-color: rgb(238, 174, 238);
+    
+}
+
+.transform_box p{
+    transform: translateX(50px);
+    /* transform: translateY(50px); */
+}

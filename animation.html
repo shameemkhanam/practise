@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      h1 {
+        font-size: 4rem;
+        text-align: center;
+        color: purple;
+        text-shadow: 4px 2px 5px palevioletred;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        background: plum;
+        border: 2px solid purple;
+        border-radius: 5px;
+        position: relative;
+        animation-name: mymove;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes mymove {
+        from {
+          left: 0px;
+        }
+        to {
+          left: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation</h1>
+    <div></div>
+  </body>
+</html>
